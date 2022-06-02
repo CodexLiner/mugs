@@ -12,11 +12,16 @@
         <entry key="..\:/Users/meena/Downloads/service-provider-app-for-on-demand-home-services-complete-solution-v1.2.4/MyApplication/app/src/main/res/drawable/login_mobile_number_bg.xml" value="0.189" />
         <entry key="..\:/Users/meena/Downloads/service-provider-app-for-on-demand-home-services-complete-solution-v1.2.4/MyApplication/app/src/main/res/drawable/m_insert.xml" value="0.189" />
         <entry key="..\:/Users/meena/Downloads/service-provider-app-for-on-demand-home-services-complete-solution-v1.2.4/MyApplication/app/src/main/res/drawable/radius_background.xml" value="0.189" />
+        <entry key="..\:/Users/meena/Downloads/service-provider-app-for-on-demand-home-services-complete-solution-v1.2.4/MyApplication/app/src/main/res/drawable/radius_bg.xml" value="0.189" />
         <entry key="..\:/Users/meena/Downloads/service-provider-app-for-on-demand-home-services-complete-solution-v1.2.4/MyApplication/app/src/main/res/drawable/sign_up.xml" value="0.189" />
+        <entry key="..\:/Users/meena/Downloads/service-provider-app-for-on-demand-home-services-complete-solution-v1.2.4/MyApplication/app/src/main/res/layout/activity_home.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/meena/Downloads/service-provider-app-for-on-demand-home-services-complete-solution-v1.2.4/MyApplication/app/src/main/res/layout/activity_main.xml" value="0.23229166666666667" />
+        <entry key="..\:/Users/meena/Downloads/service-provider-app-for-on-demand-home-services-complete-solution-v1.2.4/MyApplication/app/src/main/res/layout/fragment_chart.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/meena/Downloads/service-provider-app-for-on-demand-home-services-complete-solution-v1.2.4/MyApplication/app/src/main/res/layout/fragment_home.xml" value="0.152" />
         <entry key="..\:/Users/meena/Downloads/service-provider-app-for-on-demand-home-services-complete-solution-v1.2.4/MyApplication/app/src/main/res/layout/fragment_login.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/meena/Downloads/service-provider-app-for-on-demand-home-services-complete-solution-v1.2.4/MyApplication/app/src/main/res/layout/fragment_sign_up.xml" value="0.23229166666666667" />
         <entry key="..\:/Users/meena/Downloads/service-provider-app-for-on-demand-home-services-complete-solution-v1.2.4/MyApplication/app/src/main/res/layout/fragment_validator.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/meena/Downloads/service-provider-app-for-on-demand-home-services-complete-solution-v1.2.4/MyApplication/app/src/main/res/menu/bottom_menu.xml" value="0.23125" />
       </map>
     </option>
   </component>

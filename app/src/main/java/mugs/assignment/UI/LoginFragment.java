@@ -1,5 +1,6 @@
 package mugs.assignment.UI;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 
@@ -20,6 +21,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import java.util.HashMap;
 import java.util.Map;
 
+import mugs.assignment.HomeActivity;
 import mugs.assignment.R;
 import mugs.assignment.databinding.FragmentLoginBinding;
 import mugs.assignment.utils.change;
@@ -70,17 +72,20 @@ public class LoginFragment extends Fragment {
           new change(new changeHelper(requireActivity().getSupportFragmentManager() , R.id.MainFrame))
                   .go(SignUpFragment.class);
       });
-      if (common.isEmpty(binding.mobileText) && common.isEmpty(binding.password)){
-          nextStep();
-      }
+      binding.sendOtpButton.setOnClickListener(v->{
+          if (common.isEmpty(binding.mobileText) && common.isEmpty(binding.password)){
+              nextStep();
+          }
+      });
       return binding.getRoot();
     }
     private void nextStep() {
-        auth.signInWithEmailAndPassword("", "").addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+        auth.signInWithEmailAndPassword(binding.mobileText.getText().toString(), binding.password.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
                 if (task.isSuccessful()){
-                    //TODO:HOME ACTIVITY
+                    startActivity(new Intent(requireContext() , HomeActivity.class));
+                    requireActivity().finishAffinity();
                 }else{
                     Toast.makeText(requireContext(), "Sign In Failed", Toast.LENGTH_SHORT).show();
                 }

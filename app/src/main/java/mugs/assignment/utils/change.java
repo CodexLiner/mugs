@@ -24,6 +24,12 @@ public class change {
                  .add(id , fragment, null)
                  .commit();
     }
+    public void goWithNoStack(@NonNull Class<? extends Fragment>  fragment) {
+        manager.beginTransaction()
+                .setReorderingAllowed(true)
+                .add(id , fragment, null)
+                .commit();
+    }
     public void goWithParams(Object fragment){
         FragmentTransaction ft = manager.beginTransaction();
         ft.add(id , (Fragment) fragment, null);
